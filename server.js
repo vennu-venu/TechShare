@@ -12,7 +12,7 @@ const mc = require("mongodb").MongoClient;
 app.use(exp.static(path.join(__dirname,"dist/TechShareApp")));
 
 // Database URL
-const dburl = "mongodb+srv://TechShare:techshare@venu02.fnpkz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dburl = url;
 
 let dbObj; // DB Object declared globally.
 // Connect to MongoDB Atlas
